@@ -350,12 +350,17 @@ small {
 
 /*Footer*/
 .footer {
-	margin:-20px 0 0;
+	width:1028px;
+	height:90px;
+	margin:0 auto;
+	margin-top:-20px;
+	margin-bottom:40px;
+	position:relative;
 }
 
 .footer ul.nav {
 	display:block;
-	width:632px;
+	width:600px;
 	margin:0;
 	padding:0;
 	float:left;
@@ -382,7 +387,7 @@ small {
 }
 
 .footer .copyright {
-	width:632px;
+	width:600px;
 	margin:5px 0 25px;
 	padding:5px 0 0;
 	border-top:#c9cacd 1px dotted;
@@ -390,4 +395,11 @@ small {
 	display:block;
 	float:left;
 	clear:both;
+}
+
+.footer .share {
+	width:400px;
+	margin:0;
+	position:absolute;
+	right:0;
 }
